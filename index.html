@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Roasters Specialty Coffee House in Hong Kong offers exceptional specialty coffee, premium beans, and a unique atmosphere. Visit our branches in Hong Kong Mall, Marina, Downtown and more.">
+    <title>ROASTERS - Hong Kong</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+    <!-- Critical CSS (Reset) -->
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/branches.css">
+
+    <!-- Libraries CSS (Deferred) -->
+    <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="assets/libs/aos/aos.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="assets/libs/lenis/lenis.css" media="print" onload="this.media='all'" />
+
+    <!-- NoScript Fallback -->
+    <noscript>
+        <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/libs/aos/aos.css" />
+        <link rel="stylesheet" href="assets/libs/lenis/lenis.css" />
+    </noscript>
+
+    <!-- Scripts (Deferred) -->
+    <script src="assets/libs/lenis/lenis.min.js" defer></script>
+    <script src="assets/libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="assets/libs/aos/aos.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a href="/" class="header__logo">
+                    <img src="assets/images/logo.svg" width="219" height="32" alt="Crystal Planet Logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#hero">Main</a></li>
+                        <li><a href="#about-scene">The Concept</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#branches">Branches</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="header__content-contact">
+                    <a href="tel:+852585114777" class="header__content-contact--link">+852 58 511 4777
+                        <span class="header__content-contact--badge">online</span>
+                    </a>
+                    <a href="#contact" class="header__content-contact--tel">Contact Us</a>
+                </div>
+                <button class="header__burger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero__content" data-aos="fade-up">
+                    <h1>Hong Kong <span>Opening June 2026</span></h1>
+                    <h2>Alexandra House, 18 Chater Road, <br> Central</h2>
+                </div>
+            </div>
+            <div class="hero__bg--image">
+                <picture>
+                    <source srcset="assets/images/hero-bg.webp" type="image/webp">
+                    <img src="assets/images/hero-bg.png" width="1920" height="1080" fetchpriority="high"
+                        alt="images of coffee cup">
+                </picture>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about-scene">
+            <div class="about-bg">
+                <picture>
+                    <source srcset="assets/images/about-parallax-bg.webp" type="image/webp"><img
+                        src="assets/images/about-parallax-bg.jpg" class="about__parallax-bg" data-depth="0.2"
+                        width="1920" height="1500" loading="lazy" alt="About us background image">
+                </picture>
+            </div>
+
+            <div class="container">
+                <div class="container__wrapper" data-aos="fade-right">
+                    <h2>The Сoncept</h2>
+                    <div class="about__description">
+                        <p>Roasters Hong Kong marks the brand’s flagship entry into Asia — a Dubai-born specialty coffee
+                            house shaped by precision, scale, and an uncompromising approach to quality.</p>
+                        <p>Designed for Central’s fast-paced, globally minded audience, the space brings together
+                            specialty coffee and all-day dining within a calm, refined environment where every detail is
+                            intentional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu" id="menu">
+            <div class="container-wrapper">
+                <div class="container">
+                    <div class="menu-content" data-aos="fade-up">
+                        <h2>Menu</h2>
+                        <p>A dynamic mix of classic favorites and trend-driven innovations inspired by global specialty
+                            coffee culture.</p>
+                        <a href="assets/Roasters-Final-Menu.pdf" target="_blank" class="menu-content-link">Show Me</a>
+                    </div>
+                </div>
+                <div class="menu-swiper swiper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="menu-content-image">
+                                <picture class="menu-content-image-des">
+                                    <source srcset="assets/images/menu-content-image.webp" type="image/webp"><img
+                                        src="assets/images/menu-content-image.jpg" width="1920" height="540"
+                                        loading="lazy" alt="Menu Image">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="menu-content-image">
+                                <picture class="menu-content-image-des">
+                                    <source srcset="assets/images/menu-content-image.webp" type="image/webp"><img
+                                        src="assets/images/menu-content-image.jpg" width="1920" height="540"
+                                        loading="lazy" alt="Menu Image">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="menu-content-image">
+                                <picture class="menu-content-image-des">
+                                    <source srcset="assets/images/menu-content-image.webp" type="image/webp"><img
+                                        src="assets/images/menu-content-image.jpg" width="1920" height="540"
+                                        loading="lazy" alt="Menu Image">
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="menu-content-image">
+                                <picture class="menu-content-image-des">
+                                    <source srcset="assets/images/menu-content-image.webp" type="image/webp"><img
+                                        src="assets/images/menu-content-image.jpg" width="1920" height="540"
+                                        loading="lazy" alt="Menu Image">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="menu-nav">
+                        <div class="menu-swiper-prev swiper-button-prev">
+                            <img src="assets/images/chevron-right.svg" width="24" height="24" alt="Previous Slide">
+                        </div>
+                        <div class="menu-swiper-next swiper-button-next">
+                            <img src="assets/images/chevron-right.svg" style="transform: rotate(180deg);" width="24"
+                                height="24" alt="Previous Slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Branches Section -->
+        <div class="popup-overlay" id="popup-overlay"></div>
+        <section class="branches" id="branches">
+            <div class="branches-wrapper">
+
+                <!-- Navigation Arrows (for mobile scroll) -->
+                <div class="branches-scroll-controls">
+                    <button class="branches-scroll-btn prev" aria-label="Scroll Left">
+                        <img src="assets/images/lucide/chevron-right.svg" style="transform: rotate(0deg);" width="24"
+                            height="24" alt="">
+                    </button>
+                    <button class="branches-scroll-btn next" aria-label="Scroll Right">
+                        <img src="assets/images/lucide/chevron-right.svg" style="transform: rotate(180deg);" width="24"
+                            height="24" alt="">
+                    </button>
+                </div>
+
+                <div class="branches__wrapper">
+                    <div class="branches__map" data-aos="zoom-in" data-aos-duration="1500">
+                        <!-- Use the world map we downloaded earlier or placeholder -->
+                        <picture>
+                            <source srcset="assets/images/maps.webp" type="image/webp"><img src="assets/images/maps.png"
+                                alt="World Map" width="1920" height="1080" loading="lazy" class="branches__map-img">
+                        </picture>
+
+
+
+                        <button class="branches__pin map-pin" data-id="1" style="left: 32%; top: 62%;"
+                            aria-label="Dubai Mall"></button>
+                    </div>
+
+                    <!-- Popups Container (Absolute over map) -->
+                    <div class="branches__popup" id="branch-popup-1">
+                        <div class="swiper branch-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source srcset="assets/images/coffe7.webp" type="image/webp"><img
+                                            src="assets/images/coffe7.JPG" width="576" height="383" loading="lazy"
+                                            alt="Interior">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="branches__info">
+                            <div class="branches__info-top">
+                                <h3>ROASTERS <br>
+                                    Hong Kong Central</h3>
+                                <div class="branches__info-top--rating">
+                                    <span>4.6</span>
+                                    <img src="assets/images/rating.svg" width="178" height="22" alt="">
+                                </div>
+                            </div>
+                            <div class="branches__info-bottom">
+                                <address>
+                                    <ul>
+                                        <li class="branches__location">
+                                            <span>Alexandra House, 18 Chater Road, Central</span>
+                                        </li>
+                                        <li class="branches__thime">
+                                            <span>Monday to Sunday: 8am–11pm</span>
+                                        </li>
+                                        <li class="branches__thime">
+                                            <a href="tel:+971585585523">+971 58 595 8110</a>
+                                        </li>
+                                    </ul>
+                                </address>
+                                <a href="/" class="branches__info-bottom-link">BOOK NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container" data-aos="fade-up">
+                <h2>Contacts</h2>
+                <address>
+                    <p><b>Roasters Specialty Coffee House</b> <br>
+                        Alexandra House, Central
+                    </p>
+                    <a href="mailto:operations@roasterscoffee.hk">operations@roasterscoffee.hk</a>
+                    <a href="https://www.roasterscoffee.hk" target="_blank">www.roasterscoffee.hk</a>
+                    <ul class="contact-list">
+                        <li class="contact-list-item">
+                            <a href="/">
+                                <img src="assets/images/inst2.svg" width="34" height="34" alt="icons inst">
+                            </a>
+                        </li>
+                    </ul>
+
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // AOS Init fallback if JS deferred
+        // window.onload = function() {
+        //   AOS.init();
+        // };
+    </script>
+</body>
+
+</html>
