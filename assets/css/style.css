@@ -2840,3 +2840,14 @@ button,
         transform: none !important;
     }
 }
+
+
+@media (max-width: 576px) {
+    .menu-swiper {
+        height: 300px;
+    }
+
+    .branches__map {
+        height: 450px;
+    }
+}

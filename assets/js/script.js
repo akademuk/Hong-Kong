@@ -427,7 +427,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemsPerPage = 6;
     let itemsToShow = 3; 
 
-    // Initially hide items beyond the limit (6)
+    // Center branches map on mobile on load
+const branchesWrapper = document.querySelector('.branches__wrapper');
+if (branchesWrapper && window.innerWidth <= 1280) {
+    const map = branchesWrapper.querySelector('.branches__map');
+    if (map) {
+        const scrollTo = (map.scrollWidth - branchesWrapper.clientWidth) / 2 - 150;
+        branchesWrapper.scrollLeft = scrollTo;
+    }
+}
+
+// Initially hide items beyond the limit (6)
     if (newsItems.length > 0) {
         newsItems.forEach((item, index) => {
             if (index >= itemsPerPage) {
